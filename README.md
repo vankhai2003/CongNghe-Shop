@@ -39,3 +39,21 @@ CongNghe-Shop/
 ├── utils/              # Hàm tiện ích và xử lý lỗi
 ├── server.js           # Điểm khởi động ứng dụng
 └── .env                # Biến môi trường (port, mongo URI)
+
+
+🚀 Chức năng chính:
+ Đăng ký / Đăng nhập người dùng
+ Xác thực JWT & phân quyền admin
+ CRUD sản phẩm (thêm / sửa / xóa / xem)
+ Đặt hàng & quản lý đơn hàng
+ Kết nối và lưu trữ dữ liệu với MongoDB
+
+
+📚 API Endpoints (mẫu)
+Phương thức | Endpoint | Mô tả
+POST | /api/users/register | Đăng ký người dùng
+POST | /api/users/login | Đăng nhập & nhận JWT
+GET | /api/products/ | Lấy danh sách sản phẩm
+POST | /api/products/ | (Admin) Thêm sản phẩm
+POST | /api/orders/ | Tạo đơn hàng mới
+
